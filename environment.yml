@@ -1,0 +1,9 @@
+name: ma5121_nextflow
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - nextflow
+  - openjdk=17
+  - fastqc=0.12.1
+  - trimmomatic=0.39
